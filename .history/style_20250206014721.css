@@ -59,7 +59,6 @@ thead {
 }
 
 td,
-tr,
 th {
     border: 1px solid #ddd;
     padding: 10px;
@@ -71,33 +70,19 @@ iframe {
     display: block;
 }
 
-.recipe-footer {
-    background-color: #333;
-    /* Dark background color */
-    color: #fff;
-    /* White text color */
+footer {
+    background-color: chocolate;
     text-align: center;
-    /* Center-align the text */
-    padding: 20px 10px;
-    /* Add some padding */
-    font-family: Arial, sans-serif;
-    /* Use a clean font */
-    font-size: 16px;
-    /* Set a readable font size */
-    border-top: 2px solid #f4c542;
-    /* Add a top border with a contrasting color */
-    margin-top: 30px;
-    /* Add some space above the footer */
-}
-
-.recipe-footer p {
-    margin: 0;
-    /* Remove default margin */
-    line-height: 1.6;
-    /* Improve readability */
-}
-
-.recipe-footer strong {
-    color: #f4c542;
-    /* Highlight the strong text with a different color */
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 999;
 }
